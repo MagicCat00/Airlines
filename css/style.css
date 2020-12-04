@@ -1,0 +1,337 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f5f9;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding: 20px 30px;
+    background-color: #afcbe3;
+    border-radius: 7px;
+}
+.block {
+    background-color: #5c99c5;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+    margin-bottom: 40px;
+}
+/*меню*/
+.logo {
+    width: 120px;
+    height: auto;
+}
+.item {
+    color: #0b304d;
+    text-decoration: none;
+}
+.item__header {
+    margin-left: 15px;
+}
+.input {
+    background: #f0f5f9;
+    border: 1px solid #d9d9d9;
+    border-radius: 7px;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 8px;
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: left 11px center;
+}
+.input__search {
+    flex: 0.8;
+}
+.main {
+    padding-top: 50px;
+    color: #f0f5f9;
+}
+/*вычисления*/
+.probability {
+    display: flex;
+    flex-wrap: wrap;
+}
+.probability__input {
+    
+}
+.input__data {
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+.probability__text {
+    background-color: #f0f5f9;
+    border-radius: 7px;
+    padding: 10px 18px;
+    text-align: center;
+}
+.probability__text__info {
+    color: #0b304d;
+}
+/*блок доверия*/
+.confidence {
+    flex-direction: column;
+    order: 0;
+    text-align: center;
+    color: #f0f5f9;
+}
+.name {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.name__info {
+    font-size: 25px;
+}
+/*форма поиска*/
+.search__input {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.search__column__one__text {
+    font-size: 18px;
+}
+.search__column__one {
+    margin-right: 50px;
+}
+.search__column__two {
+    margin-right: 50px;
+}
+.input__search__form {
+}
+.search__column__three  {
+    margin-top: 39px;
+}
+.number__of__passengers {
+    margin-bottom: 55px;
+}
+.search__button {
+    width: 100%;
+    max-width: 220px;
+}
+.search__botton__text {
+    color: #f0f5f9;
+    background-color: #1d5b8a;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 18px;
+    display: flex;
+    flex: 0.3;
+}
+/*акции*/
+.shares {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px 70px;
+}
+.shares__title {
+    font-size: 50px;
+    width: 1200px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.card {
+    background: #f0f5f9;
+    color: #0b304d;
+    overflow: hidden;
+    border-radius: 7px;
+    margin-bottom: 50px;
+    flex-basis: 45%;
+    text-decoration: none;
+}
+.card__image {
+    object-fit: cover;
+}
+.card__text {
+    padding-top: 20px;
+    padding-bottom: 35px;
+    padding-left: 23px;
+    padding-right: 23px;
+}
+.card__heading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.card__title {
+    font-weight: bold;
+    font-size: 20px;
+}
+.description {
+    margin-bottom: 40px;
+}
+.shares__button {
+    text-align: right;
+}
+.button__shares__text {
+    color: #f0f5f9;
+    background-color: #1d5b8a;
+    padding: 14px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 18px;
+}
+/*закрытые акции*/
+.subscription {
+    display: flex;
+    flex-wrap: wrap;
+}
+.subscription__title {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 50px;
+    font-weight: bold;
+}
+.subscription__input {
+    margin-right: 40px;
+}
+.button__subscription {
+    color: #f0f5f9;
+    background-color: #1d5b8a;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 16px;
+}
+/*подвал*/
+.footer {
+    background-color: #84b3dc;
+}
+.footer__block {
+    display: flex;
+    padding: 50px 0px;
+    max-width: 1200px;
+    margin: auto;
+}
+.logo__footer {
+    margin-bottom: 30px;
+    width: 400px;
+    height: auto;
+}
+.footer__tel {
+    color: #f0f5f9;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu__footer {
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+.navigation__footer {
+    display: grid;
+    grid-template-columns: 100px 100px 100px;
+}
+.item__footer {
+    color: #f0f5f9;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+/*login*/
+.reg {
+    display: flex;
+    justify-content: center;
+    padding: 50px 0px;
+}
+.button__reg {
+    color: #f0f5f9;
+    background-color: #1d5b8a;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+.enter__title {
+    color: #0b304d;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.enter {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+enter__input {
+    
+    
+}
+.enter__block {
+    background-color: #5c99c5;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    margin-bottom: 40px;
+    max-width: 400px;
+}
+.input__block {
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+.input__enter {
+    margin-bottom: 30px;
+}
+.button__enter {
+    text-align: right;
+    padding-right: 30px;
+    padding-bottom: 10px;
+}
+.button__enter__word {
+    color: #f0f5f9;
+    background-color: #1d5b8a;
+    padding: 20px 30px;
+    text-decoration: none;
+    border-radius: 7px;
+    font-size: 20px;
+}
+/*promotions*/
+.promotion {
+    padding: 50px 40px;
+    margin-bottom: 128px;
+}
+.promotion__block {
+    display: flex;
+    justify-content: space-between;
+}
+.promotion__jpeg {
+    border-radius: 7px;
+}
+.promotion__info {
+    margin-left: 50px;
+}
+.promotion__title {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.promotions__text {
+    font-size: 18px;
+    line-height: 28px;
+}

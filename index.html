@@ -1,0 +1,164 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FlightPool</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <!--меню-->
+            <div><a href="index.html"><img src="img/logo.png" alt="logo" class="logo" /></a></div>
+            <input type="text" class="input input__search" placeholder="Поиск" />
+            <nav class="navigation navigation__header">
+                <a href="#shares" class="item item__header">Акции</a>
+                <a href="login.html" class="item item__header">Регистрация на рейс</a>
+                <a href="login.html" class="item item__header">Личный кабинет</a>
+            </nav>
+        </header>
+    </div>
+    <main class="main">
+        <div class="container">
+            <!--вычисления-->
+            <section class="probability block">
+                <div class="probability__input">
+                    <input type="number" class="input input__data" placeholder="Условная дата" /><br />
+                    <input type="number" class="input input__number" placeholder="Число бронирований" />
+                </div>
+                <div class="probability__text">
+                    <span class="probability__text__info">Изменение стоимости: 10к</span><br /><br /><br />
+                    <span class="probability__text__info">Вероятность вылета: 50%</span>
+                </div>
+            </section>
+            <!--блок доверия-->
+            <section class="confidence block">
+                <h1 class="name">FlightPool</h1>
+                <h2 class="name__info">Мы сближаем города, вы - живете там, где хотите.</h2>
+            </section>
+            <!--форма поиска-->
+            <section class="search block">
+                <div class="search__input">
+                    <div class="search__column__one">
+                        <span class="search__column__one__text search__text">Город / аэропорт отправления:</span><br /><br />
+                        <input type="text" class="input input__search__form" placeholder="Откуда" /><br /><br />
+                        <span class="search__column__one__text search__text">Город / аэропорт назначения:</span><br /><br />
+                        <input type="text" class="input input__search__form" placeholder="Куда" />
+                    </div>
+                    <div class="search__column__two">
+                        <span class="search__column__one__text search__text">Дата вылета туда:</span><br /><br />
+                        <input type="number" class="input input__search__form" placeholder="Туда" /><br /><br />
+                        <span class="search__column__one__text search__text">Дата вылета обратно:</span><br /><br />
+                        <input type="number" class="input input__search__form" placeholder="Обратно" />
+                    </div>
+                    <div class="search__column__three">
+                        <input type="number" class="input input__search__form number__of__passengers" placeholder="Количество пассажиров" />
+                        <div class="search__button">
+                            <a href="#" class="search__botton__text">Поиск билетов</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--акции-->
+            <section class="shares block" id="shares">
+                <h3 class="shares__title">Акции</h3>
+                <div class="card">
+                    <img src="img/promotions/promotion1.jpg" class="card__image" alt="image" />
+                    <div class="card__text">
+                        <div class="card__heading">
+                            <h3 class="card__title">Returning and Changing Your Tickets</h3>
+                        </div>
+                        <div class="card__info">
+                            <div class="description">
+                                The pandemic has changed many travelers’ plans, but we know that it will not last forever.
+                                Once all of this is over...
+                            </div>
+                        </div>
+                        <div class="shares__button"> <a href="promotions.html" class="button__shares__text">Просмотр</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/promotions/promotion2.jpg" class="card__image" alt="image" />
+                    <div class="card__text">
+                        <div class="card__heading">
+                            <h3 class="card__title">Best offers</h3>
+                        </div>
+                        <div class="card__info">
+                            <div class="description">
+                                To see again the streets that witnessed so much. To hug your beloved ones and look back to see
+                                what you’ve come through...
+                            </div>
+                        </div>
+                        <div class="shares__button"> <a href="promotions.html" class="button__shares__text">Просмотр</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/promotions/promotion3.jpg" class="card__image" alt="image" />
+                    <div class="card__text">
+                        <div class="card__heading">
+                            <h3 class="card__title">See you more often</h3>
+                        </div>
+                        <div class="card__info">
+                            <div class="description">
+                                Since the beginning of January, we have been expanding the geography of flights in Russia so that you can
+                                see your...
+                            </div>
+                        </div>
+                        <div class="shares__button"> <a href="promotions.html" class="button__shares__text">Просмотр</a></div>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="img/promotions/promotion4.jpg" class="card__image" alt="image" />
+                    <div class="card__text">
+                        <div class="card__heading">
+                            <h3 class="card__title">Everything is on again</h3>
+                        </div>
+                        <div class="card__info">
+                            <div class="description">
+                                From August 10, we will resume flights to Turkey. Flights from Moscow to Antalya will be operated twice
+                                a day daily...
+                            </div>
+                        </div>
+                        <div class="shares__button"> <a href="promotions.html" class="button__shares__text">Просмотр</a></div>
+                    </div>
+                </div>
+            </section>
+            <!--закрытые акции-->
+            <section class="subscription block">
+                <div class="subscription__content">
+                    <div class="subscription__title">
+                        <span class="subscription__title__word">Закрытые акции</span>
+                    </div>
+                    <div class="subscription__info">
+                        <input type="text" class="input subscription__input" placeholder="E-mail" />
+                        <a href="#" class="button__subscription">Подписаться</a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+    <!--подвал-->
+    <footer class="footer">
+        <div class="footer__block">
+            <div class="footer__column__1">
+                <img src="img/logo.png" alt="logo" class="logo logo__footer" /><br />
+                <div><a href="tel: 8 843 228-55-92" class="footer__tel"> 8 (800) 100 - 10 - 10</a></div>
+            </div>
+            <div class="menu__footer">
+                <div class="menu">
+                    <nav class="navigation__footer nav">
+                        <a href="index.html" class="item__footer">Home</a>
+                        <a href="#" class="item__footer">Login</a>
+                        <a href="#" class="item__footer">Sign up</a>
+                        <a href="#" class="item__footer">Contact</a>
+                        <a href="#" class="item__footer">News</a>
+                        <a href="#" class="item__footer">Return</a>
+                        <a href="#" class="item__footer">Feedback</a>
+                    </nav>
+                </div>
+            </div>
+        </div>    
+    </footer>
+</body>
+</html>
